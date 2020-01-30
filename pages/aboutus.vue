@@ -6,6 +6,9 @@
 <script>
 export default {
     name: 'aboutus',
-    layout: 'aboutus'
+    layout: 'aboutus',
+    head: {
+        title: 'Nosotros'
+    },
 }
 </script>

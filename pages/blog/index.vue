@@ -15,6 +15,9 @@
 <script>
 export default {
     name: 'blog',
+    head: {
+        title: 'Blog'
+    },
     data() {
         return {
             articles: [
